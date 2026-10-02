@@ -1,79 +1,11 @@
-<p align="center">
-  <a href="https://github.com/pypp/letterboxd-services.git">
-    <img src="assets/icon.png" alt="Logo" height="100" width="100">
-  </a>  
-  
-  <h3 align="center">Letterboxd Services</h3>
+# Letterboxd Services
 
-  <p align="center">
-    Letterboxd Extension that provides you torrents for movies.
-    <br/>
+Adds external search links to film pages on Letterboxd. Userscript fork of the original Chrome extension.
 
-## 🎬 About The Project
+## Userscript installation
 
-<br />
+Click here to view the [raw userscript](https://raw.githubusercontent.com/wishofkazdel/letterboxd-services/refs/heads/main/letterboxd-services.user.js). Your userscript extension will then ask if you want to install it.
 
-![Google Chrome](https://github.com/user-attachments/assets/02e92617-078c-4aa1-9350-919e897797b5)
+## Permissions
 
-<br/>
-
-Idea is taken from [here](https://github.com/Hame-daani/letterboxd_util).
-
-Letterboxd Services is a Chrome extension that will make your life easier by providing you torrents for movies straight through [letterboxd](https://letterboxd.com/) movie page
-
-## 📦 Installation
-
-If you are using Chrome you can download the extension straight from the Chrome Web Store [letterboxd-services](https://chrome.google.com/webstore/detail/letterboxd-services/bapjnacilodfnmciacfljidhhnbbippn).  
-If you are not using chrome or you don't want to install it from the Chrome Web Store, you can also install it [manually](#manual-installation).
-
-## 🔧 Manual Installation
-
-1. Clone the repo
-
-   ```sh
-   git clone https://github.com/pypp/letterboxd-services.git
-   ```
-
-### Chrome
-
-1. Open Chrome and go to **chrome://extensions**
-
-2. Toggle on **Developer mode** checkbox in the top right-hand corner.
-
-3. Click the **Load unpacked extension** button and select the folder **extension**.
-
-### Firefox
-
-NOTE: If you are using Firefox version < 109 the extension won't work for you
-
-1. Open Firefox and go to **about:debugging#addons**
-
-2. Click **Temporary Extensions**
-
-3. Click the **Load Temporary Add-on…** and select the **manifest.json** file from the folder **extension**.
-
-4. Go to **about:addons**, find the extension, click on the **Permissions** tab, toggle on the optional permission.
-
-## ⭐ Support
-
-If you enjoy using this project, please consider giving it a star ⭐ on GitHub — it helps a lot!
-
-## 🤝 Contributing
-
-Pull requests and issues are welcome.
-
-## 👥 Contributors
-
-- [mancube](https://github.com/mancube)
-- [leonardovida](https://github.com/leonardovida)
-
-## 📈 Star History
-
-<a href="https://www.star-history.com/?repos=pypp%2Fletterboxd-services&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=pypp/letterboxd-services&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=pypp/letterboxd-services&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=pypp/letterboxd-services&type=date&legend=top-left" />
- </picture>
-</a>
-
+The extension runs on Letterboxd film pages and uses local browser storage for the selected mode. Service links open their respective external sites.
