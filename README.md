@@ -24,7 +24,7 @@ Use the userscript manager’s menu to choose a display mode:
 
 - **Combine Services:** show the added links alongside Letterboxd’s existing services.
 - **External Services Only:** show the added external links without Letterboxd’s existing service entries.
-- **Disabled":** don’t add the external links.
+- **Disabled:** don’t add the external links.
 
 Your selected mode is saved by the userscript manager and takes effect after the page reloads.
 
